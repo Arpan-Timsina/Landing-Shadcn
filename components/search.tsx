@@ -41,7 +41,7 @@ export function Search() {
       <Button variant='ghost' className='rounded-full p-3'><MagnifyingGlassIcon/></Button>
       </div>
       {searchTerm&&suggestions.length > 0 && (
-        <ul className="absolute top-full z-10 w-full mt-1 border rounded-md shadow-lg ">
+        <ul className="absolute top-full  w-full mt-1 border rounded-md shadow-lg ">
           {searchTerm&&suggestions.map((suggestion, index) => (
             <li key={index} className="px-3 py-2 cursor-pointer hover:bg-secondary">
               {suggestion}

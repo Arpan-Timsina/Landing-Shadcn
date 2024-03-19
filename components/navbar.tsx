@@ -59,7 +59,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function Navbar() {
   return (
-    <NavigationMenu className=" p-4  bg-secondary  w-screen  sm:px-0  mx-auto ">
+    <NavigationMenu className=" p-4 z-10 bg-secondary  w-screen  sm:px-0  mx-auto ">
       
         
       <NavigationMenuList>
