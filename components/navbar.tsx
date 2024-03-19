@@ -94,7 +94,7 @@ export function Navbar() {
       Instructions on how to install and use GPT-4.
     </ListItem>
     <ListItem href="/" title="Usage">
-      Examples and use cases demonstrating GPT-4's capabilities.
+      Examples and use cases demonstrating GPT-4&lsquo;s capabilities.
     </ListItem>
   </ul>
 </NavigationMenuContent>
